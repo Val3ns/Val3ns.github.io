@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0,  maximun-scale=1.0, minimum-scale=1.0" />
-
+<head>
     <title>Valens</title>
+    
 
     <link rel="icon" href="https://thevalenscompany.com/wp-content/uploads/2018/12/Valens_logo_favicon-150x150.png" sizes="32x32">
-<link rel="icon" href="https://thevalenscompany.com/wp-content/uploads/2018/12/Valens_logo_favicon.png" sizes="192x192">
+    <link rel="icon" href="https://thevalenscompany.com/wp-content/uploads/2018/12/Valens_logo_favicon-150x150.png" sizes="192x192">
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0   user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0f">
 
     <script>
         addEventListener("load", function() {
@@ -19,6 +21,8 @@
         }
     </script>
 
+    
+
 
     
     <link rel="stylesheet" href="main4.css">
@@ -28,32 +32,42 @@
     <link rel="stylesheet" href="bootstrap.css">
 
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
+    
+  
 
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo"><img src="./images/LOGOCristian.png" alt="logo"></h2>
-            </div>
 
-            <div class="menu">
-                <ul>
-                    <li><a href="./Cris.html">HOME</a></li>
-                    <li><a href="##secDesign">DESIGN</a></li>
-                    <li><a href="#secConctact" class="nav-link">CONTACT</a></li>
+<div class="main">
 
-                </ul>
-            </div>
+    <header class="header">
+        <div class="logo-header">
+            <a href=""><img src="./images/LOGOCristian.png" alt=""></a>
+        </div>
+        <div class="nav-menu">
+            <input type="checkbox" id="check">    
+            <label for="check" class="checkbtn">
+                <div id="icon-menu">
+                    <i class="fa-solid fa-bars"></i>
+                   </div>
+            </label>
+            <ul>
+                <li><a href="./Cris.html">Inicio</a></li>
+                <li><a href="##secDesign">Designs</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
 
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type To text">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
+       
+    </header>
+   
 
-        </div> 
         <div class="content">
+            
+            
             <h1>Design & <br><span>Personalization</span> <br>Shoes</h1>
             <p class="par">The best advertising is the one made by satisfied customers
                 <br>  That's why at Cristyle Quality is very important.
@@ -90,9 +104,20 @@
                     
                 </div>
 
+            </div>
+
+                
+            
+
+
+
                 
                 <!--/ab -->
-                <hr id="#secDesign">
+                <div>
+                    <input type="checkbox" id="check">
+                    <hr id="#secDesign">
+                </div>
+                
 
                 <section class="about py-5">
                     <div class="container pb-lg-3">
@@ -284,7 +309,7 @@
                 </section>
     <!-- //ab -->
     
-
+ <div class="footer-container">
     <section class="cinco">
         
          <hr id="secConctact">
@@ -301,7 +326,7 @@
                 <a href="#"><i class="fa fa-map-marked"></i> La Romana, Rep.Dom</a>
             </div>
           
-    
+    </section>
     
     
 
@@ -317,8 +342,14 @@
         </footer>
 
 
-        
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script></center>
+     </center>  
+     
+    </div>
+
+
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
 
    
 
@@ -333,5 +364,6 @@
     ></script>
     <!-- JS Main -->
     <script src="./js/script.js"></script>
-  </body>
+    
+</body>
 </html>
