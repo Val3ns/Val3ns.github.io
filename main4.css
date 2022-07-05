@@ -562,7 +562,13 @@ html, body {
 
 
 
-
+@media (max-width: 1366px){
+   .main {
+    height: 55em;
+    width: 100%;
+    
+} 
+}
 
 /* Dispositivos-Tablets */
 
@@ -584,7 +590,7 @@ html, body {
 @media screen and (max-width: 1200px){
 
     .content {
-        top: -20px;
+        top: 40px;
         text-align: center;
         justify-content: center;
         align-items: center;
